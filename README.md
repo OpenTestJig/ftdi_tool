@@ -1,5 +1,5 @@
-# ftdi-tool
-Stand-alone script that can be used to configure attached FTDI USB2UART converters.
+# ftdi_tool
+Stand-alone python3 script that can be used to configure attached FTDI USB2UART converters.
 
 Author: Jan Simons
 License: GPLv3+
