@@ -78,7 +78,7 @@ class FtdiContext(object):
             raise FtdiException("Could not open FTDI context.")
 
     def __enter__(self):
-        return self.context
+        return self
 
     def __exit__(self, exeptype, value, traceback):
         ftdi.free(self.context)
