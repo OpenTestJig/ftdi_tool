@@ -219,7 +219,7 @@ def set_flag(myargs):
 
     if value == org_value:
         output("No change needed (old flags are already OK).")
-        output("unmodified flags: %s", decode_flags(org_value))
+        output("unmodified flags: %s" % decode_flags(org_value))
         return
 
     myargs.ctx.call(ftdi.set_eeprom_value, ftdi.INVERT, value)
